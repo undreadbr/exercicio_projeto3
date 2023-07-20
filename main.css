@@ -1,0 +1,95 @@
+.body{
+    font-family: Caprasimo, sans-serif;
+}
+
+.carousel-inner{
+    width:100%;
+    
+    max-height: 400x !important;
+}
+
+.navbar{
+    background-color: #331D2C;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: white;
+    color: #331D2C;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand,
+.nav-servicos .nav-link.active:hover{
+    color: white;
+}
+
+button.fw-bold.text-start.nav-link.text-colored.active,
+#servicos > div > div:nth-child(2) > aside > nav > button{
+    font-size: 14px;
+}
+
+
+.text-colored{
+    color:#331D2C;
+}
+
+.navbar-toggler {
+    background-color: #ffeae6;
+}
+
+.section-title{
+    font-family: Caprasimo,cursive;
+}
+
+
+#sobre-a-oficina,
+#servicos{
+    background-color: #ffeae6;
+}
+
+.nav-servicos .nav-link.active,
+#fale-conosco button{
+    background-color:#331D2C;
+    color: white;
+}
+
+.nav-servicos .nav-link:hover{
+    color: #331D2C;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#fale-conosco button{
+    background-color:#331D2C;
+    color: white;
+    transition:all 0.2s ease;
+    border-bottom: 4px solidA78295;
+}
+
+#fale-conosco button:hover{
+    transition:all 0.2s ease;
+    background-color:#331D2C;
+    transform: translate(0px, -2px);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px
+    }
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1023px){
+    .carousel-item img{
+        height: 520px
+    }
+    
+}
